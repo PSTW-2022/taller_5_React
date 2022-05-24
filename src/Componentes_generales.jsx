@@ -2,6 +2,7 @@ import React from "react";
 import { Encabezado } from "./Encabezado";
 import { Formulario } from "./Formulario";
 import { Tabla } from "./Tabla";
+import { Footer } from "./Footer";
 
 export function Aplicacion() {
   return (
@@ -9,6 +10,8 @@ export function Aplicacion() {
       <Encabezado />
       <Formulario />
       <Tabla />
+      <Tabla/>
+      <Footer />
     </React.Fragment>
   );
 }
