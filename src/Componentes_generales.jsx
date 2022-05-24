@@ -10,6 +10,7 @@ export function Aplicacion() {
       <Encabezado />
       <Formulario />
       <Tabla />
+      <Tabla/>
       <Footer />
     </React.Fragment>
   );
